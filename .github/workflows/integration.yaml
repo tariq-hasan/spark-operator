@@ -5,11 +5,13 @@ on:
     branches:
       - master
       - release-*
+      - feature/namespace-selector-test
 
   push:
     branches:
       - master
       - release-*
+      - feature/namespace-selector-test
 
 permissions:
   contents: read
