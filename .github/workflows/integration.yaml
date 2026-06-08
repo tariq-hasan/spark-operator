@@ -8,6 +8,7 @@ on:
 
   push:
     branches:
+      - executor-state-lru
       - master
       - release-*
 

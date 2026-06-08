@@ -19,6 +19,7 @@ on:
       - master
       - release-*
     paths:
+      - executor-state-lru
       - 'config/**'
       - 'charts/**'
       - 'internal/**'

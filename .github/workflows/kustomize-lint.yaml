@@ -17,6 +17,7 @@ on:
       - master
       - release-*
     paths:
+      - executor-state-lru
       - 'config/**'
       - 'test/kustomize/**'
       - '.github/workflows/kustomize-lint.yaml'
