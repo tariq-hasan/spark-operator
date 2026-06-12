@@ -16,6 +16,7 @@ on:
 
   push:
     branches:
+      - tls-hardening-1551
       - master
       - release-*
     paths:
