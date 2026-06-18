@@ -8,6 +8,7 @@ on:
 
   push:
     branches:
+      - cleanup-k8s-service
       - master
       - release-*
 
