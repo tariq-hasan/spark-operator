@@ -29,7 +29,7 @@ concurrency:
 jobs:
   images:
     name: Build and push latest images
-    if: github.repository == 'kubeflow/spark-operator'
+    if: github.repository == 'tariq-hasan/spark-operator'
 
     permissions:
       contents: read
