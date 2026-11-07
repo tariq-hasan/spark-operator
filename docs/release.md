@@ -129,9 +129,9 @@ for approval on the `release` environment. Once approved, it runs:
    kubectl images, plus operator binary archives extracted and verified from the image.
 1. **Publish Helm chart** to `oci://ghcr.io/kubeflow/helm-charts/spark-operator`.
 1. **Publish to PyPI** with trusted publishing (approval on the `release` environment again).
-1. **Create GitHub release**: a draft with the changelog section as notes (generated notes for
-   RCs), the Helm chart archive, the binary archives, the Python package and `SHA256SUMS`, which
-   is then published. RCs are marked as pre-releases.
+1. **Create GitHub release**: a draft with the changelog section and installation instructions as
+   notes (installation instructions only for RCs), the Helm chart archive, the binary archives, the
+   Python package and `SHA256SUMS`, which is then published. RCs are marked as pre-releases.
 1. **Update Helm repository index** on the `gh-pages` branch so that
    `helm repo add spark-operator https://kubeflow.github.io/spark-operator` serves the release.
 

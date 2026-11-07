@@ -444,7 +444,7 @@ jobs:
               --notes-file "${RUNNER_TEMP}/notes.md"
             )
             if [[ "${IS_PRERELEASE}" == "true" ]]; then
-              args+=(--prerelease --generate-notes)
+              args+=(--prerelease)
             fi
             gh release create "${args[@]}" "${RUNNER_TEMP}"/dist/*
           elif [[ "${is_draft}" == "true" ]]; then
